@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./src/img/icons8-pokeball-color-hand-drawn-32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>pokedex</title>
+</head>
+<body>
+  
+  <section class="general-containter">
+    <div class="main-pokemons-image-container">
+      <img data-js="mainImagePokemon" class="main-image" src="" alt="" title="">
+    </div>
+    <form  class="main-form">
+      <input type="text" name="inputSearch" id="input-search" placeholder="Ex:Pikachu ou 25" focus required>
+      <button><img src="./src/img/icons8-pokeball-48.png" alt="Buscar" title="Buscar"></button>
+    </form>
+    <div class="name-and-gif-container">
+        <span class="pokemon-gif">
+          <img data-js="pokemonGif" src="" alt="" title="">
+        </span>
+        <p data-js="pokemonName" class="pokemon-name" >Bulbassaur</p>
+    </div>
+        <div class="infos-container">
+          <section class="pokemon-weight-height">
+            <div class="pokemon-weight">
+              <span class="weight-icon"><img src="./src/img/weight.svg" alt=""></span>
+              <span data-js="pokemonWeight" class="weight-values">-</span>
+              <p class="icon-placeholder">weight(hg)</p>
+            </div>
+            <div class="pokemon-height">
+              <span class="height-icon"><img src="./src/img/height.svg" alt=""></span>
+              <span data-js="pokemonHeight" class="height-values">-</span>
+              <p class="icon-placeholder">height(dm)</p>
+            </div>
+          </section>
+          <section class="pokemon-type">
+            <span class="moves-icon"><img src="./src/img/icons8-pokeball-24 (1).png" alt=""></span>
+            <span class="icon-placeholder">Type</span>
+            <p data-js="pokemonType" class="type-values">-</p>
+          </section>
+          <section class="pokemon-ability">
+            <span class="ability-icon"><img src="./src/img/pokedex.png" alt=""></span>
+            <span class="icon-placeholder">Ability</span>
+            <p data-js="pokemonAbility" class="ability-values">-</p>
+          </section>
+        </div>
+  
+  </section>
+  <script src="./js/app.js"></script>
+</body>
+</html>
