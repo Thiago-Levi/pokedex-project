@@ -4,7 +4,7 @@
 
 ### Implementei esse projeto que é uma Pokedex onde os usuários podem buscar pokemons e obter informações.
 
-👀 Dá uma olhada aqui:
+👀 Dá uma olhada aqui: <https://thiago-levi.github.io/pokedex-project/>
 
 Infos:
 
